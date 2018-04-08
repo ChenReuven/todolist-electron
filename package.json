@@ -19,8 +19,11 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "npm run style-lint",
       "npm run lint",
+      "git add"
+    ],
+    "*.css": [
+      "npm run style-lint",
       "git add"
     ]
   },
