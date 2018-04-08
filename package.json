@@ -11,6 +11,7 @@
     "electron": "electron .",
     "test": "ng test",
     "lint": "ng lint --fix",
+    "style-lint": "stylelint src/app/*.css --fix",
     "e2e": "ng e2e",
     "precommit": "lint-staged",
     "postcommit": "git update-index --again"
@@ -18,7 +19,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "stylelint \"src/app/*.css\" --fix",
+      "npm run style-lint",
       "npm run lint",
       "git add"
     ]
