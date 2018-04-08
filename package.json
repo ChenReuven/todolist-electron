@@ -12,14 +12,14 @@
     "test": "ng test",
     "lint": "ng lint --fix",
     "style-lint": "stylelint src/app/*.css --fix",
-    "pettier-code": "prettier --write",
+    "prettier-code": "prettier --write **/*.ts",
     "e2e": "ng e2e",
     "precommit": "lint-staged",
     "postcommit": "git update-index --again"
   },
   "lint-staged": {
     "*.ts": [
-      "npm run pettier-code",
+      "npm run prettier-code",
       "npm run lint",
       "git add"
     ],

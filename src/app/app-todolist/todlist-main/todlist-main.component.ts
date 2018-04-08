@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-todlist-main',
@@ -6,13 +6,9 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./todlist-main.component.css']
 })
 export class TodlistMainComponent implements OnInit {
-
   items: any[] = [];
 
-  constructor() {
-  }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

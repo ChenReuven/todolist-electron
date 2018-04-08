@@ -8,6 +8,6 @@ install:
 - npm install
 
 script:
-- npm run pettier-code
+- npm run prettier-code
 - npm run lint
 - npm run style-lint

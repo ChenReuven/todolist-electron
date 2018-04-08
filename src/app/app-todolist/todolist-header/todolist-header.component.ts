@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-todolist-header',
@@ -6,13 +6,9 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./todolist-header.component.css']
 })
 export class TodolistHeaderComponent implements OnInit {
-
   @Input() title;
 
-  constructor() {
-  }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
