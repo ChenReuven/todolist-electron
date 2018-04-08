@@ -18,5 +18,5 @@ import {TodolistItemComponent} from './todolist-item/todolist-item.component';
   exports: [TodolistComponent]
 })
 export class AppTodolistModule {
-  a = 'dsad';
+  a = "dsad";
 }
