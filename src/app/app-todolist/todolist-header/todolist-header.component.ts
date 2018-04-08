@@ -9,7 +9,7 @@ export class TodolistHeaderComponent implements OnInit {
   @Input() title;
 
   constructor() {
-    var x = "s";
+    const x = 's';
   }
 
   ngOnInit() {}
