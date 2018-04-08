@@ -16,7 +16,7 @@
     "postcommit": "git update-index --again"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{ts,html}": [
       "prettier --write",
       "npm run lint",
       "git add"
