@@ -16,7 +16,7 @@
     "postcommit": "git update-index --again"
   },
   "lint-staged": {
-    "*.ts": ["tslint --fix", "git add"]
+    "*.ts": ["tslint --fix", "npm run lint" ,"git add"]
   },
   "private": true,
   "dependencies": {
