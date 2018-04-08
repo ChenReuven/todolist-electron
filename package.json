@@ -16,15 +16,16 @@
     "postcommit": "git update-index --again"
   },
   "lint-staged": {
+    "*.{html}": [
+      "prettier --write",
+      "git add"
+    ],
     "*.{ts}": [
       "prettier --write",
       "npm run lint",
       "git add"
-    ],
-    "*.{html}": [
-      "prettier --write",
-      "git add"
     ]
+
   },
   "private": true,
   "dependencies": {
