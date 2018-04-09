@@ -9,7 +9,7 @@
     "build": "ng build",
     "build-prod": "ng build --base-href c:/Users/reuvec/Desktop/todolist-electron/dist/",
     "electron": "electron .",
-    "test": "ng test",
+    "test": "ng test --watch=false",
     "lint": "ng lint --fix",
     "style-lint": "stylelint src/app/*.css --fix",
     "prettier-code": "prettier --write **/*.ts",
