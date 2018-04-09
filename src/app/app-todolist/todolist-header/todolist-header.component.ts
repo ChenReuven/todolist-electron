@@ -8,9 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TodolistHeaderComponent implements OnInit {
   @Input() title;
 
-  constructor() {
-    const x = 's';
-  }
+  constructor() {}
 
   ngOnInit() {}
 }
